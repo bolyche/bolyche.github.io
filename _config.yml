@@ -1,0 +1,97 @@
+# User Settings | Edit there as per required
+
+title: SciElve
+url: "http://bolyche.github.io/"
+baseurl: ""
+
+# This will show up at the top of index page
+site_heading: >
+    SciElve
+
+email: christina.bolychevsky@gmail.com
+author: bolyche
+# This description will show up in google search results
+# (for index page) etc.
+description: >
+    Personal site of @bolyche: sciencey & misc
+
+# This will what will show against &copy; in the footer
+copyright: bolyche
+# Toggle your short bio, which will displayed on your index page
+# Just toggle it and run jekyll again to see
+intro: true         # Tip: Remove the span from site_heading if intro is set to true
+# This will be displayed in your intro
+short_bio: |
+    <p>Welcome to SciElve!</p>
+    <br>
+    <p> misc things of a scientist / writer / foibler hound </p>
+permalink: /:title.html
+
+# Comments are powered by disqus
+comments: true
+
+index_photo:  #change in index if you want a different one
+background_image:  #change in style.scss under container2 (used in index.html)
+
+# keep about_stub roughly 12 words long for best results
+# This will show up at the bottom of each post
+# Note that about_footer should be true if you want
+# to see author information at the bottom of each post
+about_stub: >
+    <p>scientist / writer / foibler hound & caffeinated at all times</p>
+    <p>- tangents imminent</p>
+
+about_footer: true
+
+twitter_username: bolyche
+github_username: bolyche
+facebook_id: deleresk
+flickr_username: bolyche
+linkedin_username: chris-bolychevsky-7783805a
+steam_username: 76561198031459610/
+
+favicon: true
+favicon_location: "images/favicon.ico"
+
+profile_picture: images/profilepic.jpg # note that will need to change file name in intro if you want to change it
+paginate: 5
+paginate_path: "/page/:num"
+tracking_id: UA-54061327-2 # GA Tracking ID - for bolyche.github.io
+
+# Social Stuff | open graph and twitter cards
+og_image: "images/profilepic.jpg" # This will show in facebook thumbnails
+twitter_image: "http://bolyche.github.io/accent/images/profilepic.jpg" # This will show in twitter cards
+
+####################################
+####################################
+####################################
+### Build Settings | Don't Touch ###
+####################################
+####################################
+####################################
+
+markdown: kramdown
+
+gems:
+    - jekyll-paginate
+
+sass:
+    style: compressed
+    sass_dir: _sass
+
+# Scopes
+defaults:
+    -
+        scope:
+            path:   ""
+            type:   "pages"
+        values:
+            layout: "page"
+    -
+        scope:
+            path:   ""
+            type:   "posts"
+        values:
+            layout: "post"
+
+exclude: [vendor] # For travis ci

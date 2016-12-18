@@ -42,7 +42,7 @@ body {
     text-align: center;
     font-size: 20px;
     margin-bottom: 20px;
-    font-family: 'Roboto Mono', 'sans-serif';
+    font-family: 'Roboto Mono', 'sans-serif', $font-stack-one;
 		background-color: #FFFFFF;
     @media (max-width: $break-small) {
         height: 100%;
@@ -62,7 +62,7 @@ body {
         margin: $base-spacing 0;
         margin-bottom: $base-spacing/1.1;
         font-size: 40px;
-        font-family: 'ubuntu';
+        font-family: 'Roboto Mono', 'sans-serif';
         @media (max-width: $break-small) {
             font-size: 32px;
         }
@@ -76,7 +76,7 @@ body {
 }
 #index_photo {
 		max-width: 100%;
-		min-height: 300px;
+		height: auto;
 		width: auto\9; /* ie8 */
 		padding-bottom: 7%;
 		padding-top: 5%;
@@ -174,7 +174,7 @@ footer {
     text-align: center;
     margin: auto;
     font-size: 30px;
-    font-family: 'ubuntu';
+    font-family: 'Roboto Mono', 'sans-serif';
 }
 .container {
     max-width: $max-width;
@@ -191,6 +191,7 @@ footer {
     width: 100%;
     margin: $base-spacing 0;
     .post-title {
+				font-family: $font-stack-one;
         font-size: 25px;
 				color: $accent-color;
     }

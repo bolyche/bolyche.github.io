@@ -69,10 +69,9 @@ body {
     }
 }
 #intro-img {
-    width: 150px;
-    height: 150px;
-    border-radius: 8%;
-    border: 2px solid transparent;
+    max-width: 95%;
+    padding-left: 5%;
+		padding-right: 5%;
 }
 #index_photo {
 		max-width: 100%;
@@ -192,12 +191,16 @@ footer {
     margin: $base-spacing 0;
     .post-title {
 				font-family: $font-stack-one, 'sans-serif';
-        font-size: auto;
+        font-size: 20px;
 				color: #000000;
     }
     .post-time {
         color: #FF0000;
     }
+		.post-preview {
+				font-family: $font-stack-one, 'sans-serif';
+				padding: 20px;
+		}
     @media (max-width: $break-medium) {
         .post-time {
             margin-top: $base-spacing/2;
@@ -209,6 +212,11 @@ footer {
             float: none;
 						color: #000;
         }
+				.post-preview {
+						display: block;
+						float: none;
+						color: #000;
+				}
         margin: $base-spacing*1.1 0;
     }
 }
@@ -224,7 +232,7 @@ footer {
     float: right;
 }
 
-/* To center images and make them smaller */
+/* To center images and make them smaller in posts */
 
 .center {
 		text-align: center;
@@ -260,6 +268,9 @@ but didn't work
     width: 100%;
     min-height: 70px;
     background-color: $accent-color;
+}
+.navbar-links {
+		float: right;
 }
 .back-outer {
   //  text-align: center;
@@ -298,6 +309,9 @@ but didn't work
         }
         margin-bottom: 10px;
     }
+}
+.pagination-size {
+		font-size: 40px;
 }
 
 /* Post

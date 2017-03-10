@@ -22,6 +22,9 @@ layout: default
                     <time>{{ post.date | date: '%B %d, %Y '}}</time>
                 </span>
                 <div style="clear:both"></div>
+                <span class="post-preview">
+                <p>{{ post.content | strip_html | truncatewords:50 }}</p>
+                </span>
             </div>
         {% endfor %}
     </div>

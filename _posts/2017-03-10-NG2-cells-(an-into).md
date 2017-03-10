@@ -122,12 +122,12 @@ These little currents were tested; what happens if the number of vesicles releas
 
 Electron microscopy studies then showed axon terminals to have synaptic junctions with NG2 cells. With a high clustering of vesicles from the presynaptic neurons and a noticeable (though thinner than on spines) postsynaptic density, NG2 cells have distinct neuron-glial synapses.
 
-
 <br>
-<figure style="text-align:center;">
-    <img alt="Bergles 2000 Electron Microscopy Figure 5 a-d" src="images/bergles2000.jpg" />
-    <figcaption>Comparison of OPC synapse on bouton(b) (white arrow) versus onto a dendritic spine (s) from Ref 19</figcaption>
-</figure>
+
+{: .center }
+![Bergles 2000 Electron Microscopy Figure 5 a-d](images/bergles2000.jpg)
+<figcaption>Comparison of OPC synapse on bouton(b) (white arrow) versus onto a dendritic spine (s) from Ref 19</figcaption>
+
 <br>
 
 #### What is the effect of these synapses on NG2 cells? Why are they useful?

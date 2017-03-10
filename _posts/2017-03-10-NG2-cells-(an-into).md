@@ -125,7 +125,7 @@ Electron microscopy studies then showed axon terminals to have synaptic junction
 <br>
 
 {: .center }
-![Bergles 2000 Electron Microscopy Figure 5 a-d](images/bergles2000.jpg)
+![Bergles 2000 Electron Microscopy Figure 5 a-d](images/bergles.jpg)
 <figcaption>Comparison of OPC synapse on bouton(b) (white arrow) versus onto a dendritic spine (s) from Ref 19</figcaption>
 
 <br>

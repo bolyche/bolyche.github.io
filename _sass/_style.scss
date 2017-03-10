@@ -247,16 +247,28 @@ but didn't work
 		padding-left: 15%;
 		padding-right: 15%;
 		text-align: center;
+		@media (max-width: $break-small) {
+			padding: 0;
+			text-align: center;
+		}
 }
 .smaller {
 		padding-left: 22%;
 		padding-right: 22%;
 		text-align: center;
+		@media (max-width: $break-small) {
+			padding: 0;
+			text-align: center;
+		}
 }
 .smallest {
 		padding-left: 30%;
 		padding-right: 30%;
 		text-align: center;
+		@media (max-width: $break-small) {
+			padding: 0;
+			text-align: center;
+		}
 }
 
 /* Navbar

@@ -1,7 +1,7 @@
 # User Settings | Edit there as per required
 
 title: SciElve
-url: "http://bolyche.github.io/"
+url: "https://bolyche.github.io"
 baseurl: ""
 
 # This will show up at the top of index page
@@ -38,8 +38,8 @@ background_image:  #change in style.scss under container2 (used in index.html)
 # Note that about_footer should be true if you want
 # to see author information at the bottom of each post
 about_stub: >
-    <p>scientist / writer / foibler hound & caffeinated at all times</p>
-    <p>- tangents imminent</p>
+    <p>Comment below if you disagree on anything posted here!</p>
+    <p>Discussion is food for the mind</p>
 
 about_footer: true
 

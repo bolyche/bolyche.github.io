@@ -72,6 +72,7 @@ Excitation (depolarisation) of neurons in synaptic transmission uses some import
 
 {: .smaller }
 ![AMPA receptor](images/sketch-6.jpg)
+<figcaption>Adapted from "The cell biology of synaptic plasticity: AMPA receptor trafficking"</figcaption>
 
 <br>
 
@@ -80,7 +81,8 @@ Bergles & co wanted to understand how glutamate was transmitted and affected the
 <br>
 
 {: .center }
-![Whole cell patch clamp electrophysiological recording](images/sketch-7.2.jpg)
+![Whole cell patch clamp electrophysiological recording Equivalent Circuit](images/sketch-7.2.jpg)
+<figcaption>Right hand side adapted from The Axon Guide</figcaption>
 
 <br>
 
@@ -126,7 +128,7 @@ Electron microscopy studies then showed axon terminals to have synaptic junction
 
 {: .center }
 ![Bergles 2000 Electron Microscopy Figure 5 a-d](images/bergles.jpg)
-<figcaption>Comparison of OPC synapse on bouton(b) (white arrow) versus onto a dendritic spine (s) from Ref 19</figcaption>
+<figcaption>Comparison of OPC synapse with bouton(b) (white arrow on left) versus with dendritic spine (s) on right from Ref 19</figcaption>
 
 <br>
 

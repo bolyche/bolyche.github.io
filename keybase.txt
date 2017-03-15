@@ -1,1 +1,54 @@
-keybase verification
+==================================================================
+https://keybase.io/bolyche
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://bolyche.github.io
+  * I am bolyche (https://keybase.io/bolyche) on keybase.
+  * I have a public key ASCAZiRt_CUO3M5DUb97vCQ0hU_hHyAhnjJ1ZY6m9gYBcgo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01208066246dfc250edcce4351bf7bbc2434854fe11f20219e3275658ea6f60601720a",
+            "host": "keybase.io",
+            "kid": "01208066246dfc250edcce4351bf7bbc2434854fe11f20219e3275658ea6f60601720a",
+            "uid": "a1db83a5a68e7178fa2cf1d016ca5619",
+            "username": "bolyche"
+        },
+        "service": {
+            "hostname": "bolyche.github.io",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.20"
+    },
+    "ctime": 1489601053,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1489601043,
+        "hash": "5ed4016cf61b6566ea0870926785c14f44923cc10d7c1d1ca5eeb3d3c0a76a6b98b37e5119a3e9c64306f8a296df95381c291874952ee56764e798802c33ec8c",
+        "seqno": 960645
+    },
+    "prev": "3b358d9a6d613e90536f2ee45cf113716d27f0d336eb0108e64cde40e9f2b954",
+    "seqno": 7,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEggGYkbfwlDtzOQ1G/e7wkNIVP4R8gIZ4ydWWOpvYGAXIKp3BheWxvYWTFAvh7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwODA2NjI0NmRmYzI1MGVkY2NlNDM1MWJmN2JiYzI0MzQ4NTRmZTExZjIwMjE5ZTMyNzU2NThlYTZmNjA2MDE3MjBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwODA2NjI0NmRmYzI1MGVkY2NlNDM1MWJmN2JiYzI0MzQ4NTRmZTExZjIwMjE5ZTMyNzU2NThlYTZmNjA2MDE3MjBhIiwidWlkIjoiYTFkYjgzYTVhNjhlNzE3OGZhMmNmMWQwMTZjYTU2MTkiLCJ1c2VybmFtZSI6ImJvbHljaGUifSwic2VydmljZSI6eyJob3N0bmFtZSI6ImJvbHljaGUuZ2l0aHViLmlvIiwicHJvdG9jb2wiOiJodHRwczoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuMjAifSwiY3RpbWUiOjE0ODk2MDEwNTMsImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTQ4OTYwMTA0MywiaGFzaCI6IjVlZDQwMTZjZjYxYjY1NjZlYTA4NzA5MjY3ODVjMTRmNDQ5MjNjYzEwZDdjMWQxY2E1ZWViM2QzYzBhNzZhNmI5OGIzN2U1MTE5YTNlOWM2NDMwNmY4YTI5NmRmOTUzODFjMjkxODc0OTUyZWU1Njc2NGU3OTg4MDJjMzNlYzhjIiwic2Vxbm8iOjk2MDY0NX0sInByZXYiOiIzYjM1OGQ5YTZkNjEzZTkwNTM2ZjJlZTQ1Y2YxMTM3MTZkMjdmMGQzMzZlYjAxMDhlNjRjZGU0MGU5ZjJiOTU0Iiwic2Vxbm8iOjcsInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RAhamzL3kZ6CMmlfKpJ0daX8zrLQ+gfZkVFx9WlheOGu6lp3A5CLkdsueJdE5KytEOlxpxzO676DgXAfZ4CAfUDqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEILNNzmTxDCdXYbWiEgq8Mb+dtt0F2gyCQWt4cmCgkJVbo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/bolyche
+
+==================================================================

@@ -1,14 +1,14 @@
 # User Settings | Edit there as per required
 
-title: SciElve
+title: Sci Migrants
 url: "https://bolyche.github.io"
 baseurl: ""
 
 # This will show up at the top of index page
 site_heading: >
-    SciElve
+    Sci Migrants
 
-email: christina.bolychevsky@gmail.com
+email: bolyche@protonmail.com
 author: bolyche
 # This description will show up in google search results
 # (for index page) etc.
@@ -22,7 +22,7 @@ copyright: bolyche
 intro: true         # Tip: Remove the span from site_heading if intro is set to true
 # This will be displayed in your intro
 short_bio: |
-  <p>Random fact: Head Cheese (aka Head Loaf) is made by stewing an entire Pigs Head. But ...no brain? ...On we go then!</p>
+  <p>Random fact: Head Cheese (aka Head Loaf) is made by stewing an entire Pigs Head. But ...No brain? ...On we go then!</p>
   <p> - - Links above, Science below - - </p>
 permalink: /:title
 
@@ -37,8 +37,8 @@ background_image:  #change in style.scss under container2 (used in index.html)
 # Note that about_footer should be true if you want
 # to see author information at the bottom of each post
 about_stub: >
-    <p>Comment below if you disagree on anything posted here!</p>
-    <p>Discussion is food for the mind</p>
+    <p>Comment below if you disagree on anything posted here</p>
+    <p>Discussion == food</p>
 
 about_footer: true
 

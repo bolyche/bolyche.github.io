@@ -1,9 +1,10 @@
 ---
 Date:
 Title: NG2 cells (an intro)
+image: sketch-5.2.jpg
 ---
 
-Before I forget all I learned, it seemed fun to put up a series of posts around the research I was doing in Bonn. Slightly glia-centric (on OPCs / NG2 cells + methods) and hopefully interesting to those working primarily with neurons!
+Before I forget all I learned, I'd like to put up a series of posts around the research I was doing in Bonn. Slightly glia-centric (on OPCs / NG2 cells + methods) and hopefully interesting to those working primarily with neurons!
 
 I only realised in trying to write this that my ability to write “simply” (ELI5 in a way) has completely gone out of the door for practice. I tried it here, but perhaps it resembles the mad ravings of someone who indeed, was in that German basement lab too long ……
 

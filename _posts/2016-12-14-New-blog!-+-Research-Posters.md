@@ -1,14 +1,15 @@
 ---
 Date:
 Title: Different Flavors of Research (poster)
+image: conference_posters.jpeg
 ---
 
 ###### Updated to a new blog!       Beep Bloop Testing Testing..
 
-
+<br>
 I've finally redone the git pages to a rather exciting new theme (hooray!) and returned to the UK after spending time in Germany doing research for a PhD.
 
-As a test piece to check the website update I've written a short, foolish piece musing on Bio Research Posters.
+As a test piece to check the website update, I've written a short, foolish piece musing on Bio Research Posters.
 
 
 _____
@@ -17,7 +18,7 @@ _____
 Having done an Msc degree in Chem w/Math in the earlier time of this blog, I felt myself battlehardened, grungy and full of the utmost vitriolic enthusiasm for upcoming research gruel. Experiencing my share of shiney shiney Photoshop work, presentations, stylish dressing-up and feathery displays, I imagined I was ready for the PhD world of presenting the simple, elegant thing known as The Poster.
 
 
-Typically shown off both within the department and at topic-related conferences, The Poster (TP for short) is a typical showpiece for both the budding graduate student, rosy-cheeked undergrad or somewhat scarred lecturer heaving to & fro for tenureship. It's a manifesto and a funding-courtship of sorts, with the grants-mating-ritual acted out artfully in the ubiquitously gossip-laden environment of the conference halls amid tea-drinking aficionados.
+Typically shown off both within the department and at topic-related conferences, The Poster (TP) is a typical showpiece for both the budding graduate student, rosy-cheeked undergrad or somewhat scarred lecturer heaving to & fro for tenureship. It's a manifesto and a funding-courtship of sorts, with the grants-mating-ritual acted out artfully in the ubiquitously gossip-laden environment of the conference halls amid tea-drinking aficionados.
 
 <br>
 <figure style="text-align:center;">

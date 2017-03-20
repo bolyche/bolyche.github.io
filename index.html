@@ -6,7 +6,7 @@ layout: default
 
 <section class="post-list">
   <p>
-    <img id="index_photo" src="{{site.url}}/images/bg_leaves_copy.jpg"> <! this image shows up under name/links & above posts!>
+    <img id="index_photo" src="{{site.url}}/images/bg_leaves_copy.jpg"> <! this image shows up under name/links & above posts>
   </p>
 
   <div class = "container2">
@@ -22,7 +22,10 @@ layout: default
                     <time>{{ post.date | date: '%B %d, %Y '}}</time>
                 </span>
                 <div style="clear:both"></div>
-                <span class="post-preview">
+                <span class="post-preview-text">
+                  <span class="image-preview">
+                  <img src="{{ site.baseurl }}/images/{{ post.image }}" height="120px" wax-width="180px">
+                  </span>
                 <p>{{ post.content | strip_html | truncatewords:50 }}</p>
                 </span>
             </div>

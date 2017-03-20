@@ -77,8 +77,8 @@ body {
 		max-width: 100%;
 		height: auto;
 		width: auto\9; /* ie8 */
-		padding-bottom: 7%;
-		padding-top: 5%;
+		padding-bottom: 2%;
+		padding-top: 3%;
 }
 #index_photo_span {
 		max-width: 100%;
@@ -197,8 +197,13 @@ footer {
     .post-time {
         color: #FF0000;
     }
-		.post-preview {
+		.post-preview-text {
 				font-family: $font-stack-one, 'sans-serif';
+				padding: 20px;
+				display: inline-block;
+		}
+		.image-preview {
+				float: left;
 				padding: 20px;
 		}
     @media (max-width: $break-medium) {
@@ -212,7 +217,7 @@ footer {
             float: none;
 						color: #000;
         }
-				.post-preview {
+				.post-preview-text {
 						display: block;
 						float: none;
 						color: #000;
@@ -345,6 +350,9 @@ hr {
     color: #fff;
     padding: $base-spacing;
 		background-color: #000000;
+		@media (max-width: $break-small) {
+			font-size: auto;
+		}
 }
 .copyright {
     color: $accent-color;

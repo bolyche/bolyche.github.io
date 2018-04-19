@@ -59,20 +59,22 @@ body {
         background: #000;
     }
     h2 {
-        margin: $base-spacing 0;
-        margin-bottom: $base-spacing/1.1;
+        /*margin: $base-spacing 0;
+        margin-bottom: $base-spacing/1.1;*/
         font-size: 40px;
         font-family: 'Roboto Mono', 'sans-serif';
+				float: left;
         @media (max-width: $break-small) {
             font-size: 32px;
         }
     }
 }
-#intro-img {
+/*#intro-img {
     max-width: 95%;
     padding-left: 5%;
 		padding-right: 5%;
 }
+*/
 #index_photo {
 		max-width: 100%;
 		height: auto;
@@ -201,6 +203,9 @@ footer {
 				font-family: $font-stack-one, 'sans-serif';
 				padding: 20px;
 				display: inline-block;
+		}
+		p {
+				padding: inherit;
 		}
 		.image-preview {
 				float: left;

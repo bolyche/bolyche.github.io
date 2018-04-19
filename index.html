@@ -23,9 +23,11 @@ layout: default
                 </span>
                 <div style="clear:both"></div>
                 <span class="post-preview-text">
+                  {% if post.image %}
                   <span class="image-preview">
                   <img src="{{ site.baseurl }}/images/{{ post.image }}" height="120px" wax-width="180px">
                   </span>
+                  {% endif %}
                 <p>{{ post.content | strip_html | truncatewords:50 }}</p>
                 </span>
             </div>

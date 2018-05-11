@@ -70,7 +70,7 @@ twitter_image: "http://bolyche.github.io/accent/images/profilepic.jpg" # This wi
 
 markdown: kramdown
 
-gems:
+plugins:
     - jekyll-paginate
 
 sass:

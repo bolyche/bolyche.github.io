@@ -4,3 +4,9 @@ _site
 .DS_Store
 
 *.png
+
+# Environments
+.env
+.venv
+env/
+venv/

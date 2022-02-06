@@ -19,4 +19,4 @@ Give me equal price, regardless.
 
 
 
-![Gender Neutral Heaven](/bolyche/assets/images/comic-2.2.jpg)
+![Gender Neutral Heaven]({{ site.baseurl }}/assets/images/comic-2.2.jpg)

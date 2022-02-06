@@ -1,95 +1,64 @@
-# User Settings | Edit there as per required
+# Site
+name: "words from a data nerd"
+title: ""
+description: ""
+logo: 'assets/images/fracticalcanopy.png'
+favicon: 'assets/images/fracticalcanopy.png'
+baseurl: /bolyche
+google_analytics: 'UA-54061327-2'
+disqus: 'bolyche'
+mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
+include: ["_pages"]
+permalink: /:title/
 
-title: Migrants (a misnomer)
-url: "https://bolyche.github.io"
-baseurl: ""
+# Authors
+authors:
+  chris:
+    name: it's me
+    display_name: it's me
+    avatar: 'assets/images/chris_white_transparent.png'
+    gravatar: d514e7a419c24b6ea3350de0f01dc413
+    email: chris@bolyche.com
+    web: https://bolyche.github.io
+    twitter: https://twitter.com/bolyche
+    description: ""
 
-# This will show up at the top of index page
-site_heading: >
-    Migrants (a misnomer)
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-archives
 
-email: bolyche@protonmail.com
-author: bolyche
-# This description will show up in google search results
-# (for index page) etc.
-description: >
-    Personal site of @bolyche: science & misc
+# Archives
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive
+  permalinks:
+    category: '/category/:name/'
 
-# This will what will show against &copy; in the footer
-copyright: bolyche
-# Toggle your short bio, which will displayed on your index page
-# Just toggle it and run jekyll again to see
-intro: true         # Tip: Remove the span from site_heading if intro is set to true
-# This will be displayed in your intro
-short_bio: |
-  <p></p>
-permalink: /:title
+# Pagination
+paginate: 6
+paginate_path: /page:num/
 
-# Comments are powered by disqus
-comments: true
-
-index_photo:  #change in index if you want a different one
-background_image:  #change in style.scss under container2 (used in index.html)
-
-# keep about_stub roughly 12 words long for best results
-# This will show up at the bottom of each post
-# Note that about_footer should be true if you want
-# to see author information at the bottom of each post
-about_stub: >
-    <p>Comment below if you disagree on anything posted here</p>
-    <p>Discussion == food</p>
-
-about_footer: true
-
-twitter_username: bolyche
-github_username: bolyche
-facebook_id: deleresk
-flickr_username: bolyche
-linkedin_username: chris-bolychevsky-7783805a
-steam_username: 76561198031459610/
-
-favicon: true
-favicon_location: "images/favicon.ico"
-
-profile_picture: images/profilepic.jpg # note that will need to change file name in intro if you want to change it
-paginate: 5
-paginate_path: "/page/:num"
-tracking_id: UA-54061327-2 # GA Tracking ID - for bolyche.github.io
-
-# Social Stuff | open graph and twitter cards
-og_image: "images/profilepic.jpg" # This will show in facebook thumbnails
-twitter_image: "http://bolyche.github.io/accent/images/profilepic.jpg" # This will show in twitter cards
-
-####################################
-####################################
-####################################
-### Build Settings | Don't Touch ###
-####################################
-####################################
-####################################
-
+# Other
 markdown: kramdown
 
-plugins:
-    - jekyll-paginate
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
 
-sass:
-    style: compressed
-    sass_dir: _sass
+# Adsense (change to "enabled" to activate, also your client id and ad slot. Create a new ad unit from your Adsense account to get the slot.)
+adsense: "disabled"
+adsense-data-ad-client: ""
+adsense-data-ad-slot: ""
 
-# Scopes
-defaults:
-    -
-        scope:
-            path:   ""
-            type:   "pages"
-        values:
-            layout: "page"
-    -
-        scope:
-            path:   ""
-            type:   "posts"
-        values:
-            layout: "post"
+# Lazy Images ("enabled" or "disabled")
+lazyimages: "disabled"
 
-exclude: [vendor] # For travis ci
+exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]

@@ -1,10 +1,11 @@
 ---
-Date: 2020-06-02
-Title: Shades of Evil
-image:
+layout: post
+date: 2020-06-02
+title: Shades of Evil
+image: assets/images/evilvillain.png
+categories: [ books ]
+tags: [red, black]
 ---
-<br>
-
 I’m reading a book I love right this movement and, for someone who grew up watching the films and revelling in the style, the fantasy, I still can’t quite point out what I love about it. The book is Master and Margarita - a well known and well worn classic that a million scholars have expounded over within their own echo chamber pedestal. It chronicles that great farce of Satan visiting Moscow, upsetting a few locals with some well made predictions and seemingly innocent use of an (mostly) free apartment, followed by a very grand ball. Amidst this, there’s some fascinating interludes with an extremely personable Pontius Pilate (with a dog, to make even the hard hearted of us extremely distracted - for what is greater love than that between human and loaf?) and the very confusing elevation of a Romance novel written about that great historical figure during his condemnation of God’s son on earth.<br>
 
 

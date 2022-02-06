@@ -1,10 +1,14 @@
 ---
-Date: 2020-06-22
-Title: Wasp Factory Spoilers
-image:
+layout: post
+date: 2020-06-22
+title: Wasp Factory Spoilers
+categories: [ books ]
+tags: [green, brown]
+description: "Iain Banks is glorious - & this book was certainly not the fare I was used to from him"
+featured: true
+hidden: true
+image: assets/images/waspclock.jpg
 ---
-<br>
-
 Last year a friend of mine, having heard I’d never read The Wasp Factory by Iain Banks, immediately brought it off his shelf and into my temporary possession.
 
 *As an aside - I do love it when friends actively give me books to read. There’s something both warm or intimate and something definitively smug about the action - Like saying yes my taste is good and I heretofore declare it publicly by thrusting this physical thing of culture and good taste upon you. May you align yourself to my cultural enjoyments.*

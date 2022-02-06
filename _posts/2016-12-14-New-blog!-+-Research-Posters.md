@@ -25,7 +25,7 @@ Typically shown off both within the department and at topic-related conferences,
 
 
 {: .image-post }
-![conference posters, image from wikipedia.org]({{ site.baseurl }}/assets/images/conference_posters.jpeg)
+![conference posters, image from wikipedia.org](/assets/images/conference_posters.jpeg)
 
 
 The process of birthing this vast and complex document is - (analogy it if you will) not un-akin to drawing a rapidly growing tadpole spawn. The initial process is somewhat sketchy, unsure and hazy on the details. As research progresses, we see more definitive outlines in future iterations of TP and the spawn, excited to life by accidents of the undergrad becomes a rather beautiful, complex organism given time and nurturing.
@@ -35,7 +35,7 @@ Imagine however, that you are drawing with two hooks and a burnt log for charcoa
 Now, I had known all about this process of course. Chemistry is a fabulous thing to present - one can (if feeling playful) get out their model sets and demonstrate basic geometrical or conformational ideas. One can depict with some level of assurance some basic processes. One draws graphs like a boss - bold and detailed, excessively analysed and almost everything considered. We stand on shoulders of giants who've had a nice balcony extension done to their lapels and intricate railing, warning signs and protective alcoves built-in to deal with shaky footing. During conferences one argues with vigor, spouting truths and demi-truths, interweaving to form a silken nanocarbon tapestry upon which smug chemists then rest, as if hammocks made from the leathery skins of conquered opponents.
 
 {: .image-post }
-![An excellent use of model kits in lectures, image & model by @Izzinatah]({{ site.baseurl }}/assets/images/chem_model_kit.jpg)
+![An excellent use of model kits in lectures, image & model by @Izzinatah](/assets/images/chem_model_kit.jpg)
 
 
 I had known my foes in chemistry. I knew my footing, and the dance was on a level surface.

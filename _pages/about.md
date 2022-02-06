@@ -10,7 +10,7 @@ comments: true
 <div class="col-md-4">
 <div class="sticky-top sticky-top-80">
 <figure style="text-align:center;">
-  <img src="{{ site.baseurl }}/assets/images/lakedistrict_climbing.jpg" />
+  <img src="/assets/images/lakedistrict_climbing.jpg" />
 </figure>
 </div>
 </div>

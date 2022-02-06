@@ -20,4 +20,4 @@ I respect my fellow artists immensely.
 
 
 {: .image-post }
-![The Three Responses comic](/bolyche/assets/images/comic-1.jpg)
+![The Three Responses comic]({{ site.baseurl }}/assets/images/comic-1.jpg)

@@ -1,7 +1,10 @@
 ---
-Date:
-Title: NG2 cells (an intro)
-image: sketch-5.2.jpg
+layout: post
+date: 2017-03-10
+title: NG2 cells (an intro)
+image: assets/images/sketch-5.2.jpg
+categories: [ science ]
+tags: [white, yellow]
 ---
 
 Before I forget all I learned, I'd like to put up a series of posts around the research I was doing in Bonn. Slightly glia-centric (on OPCs / NG2 cells + methods) and hopefully interesting to those working primarily with neurons!
@@ -17,49 +20,27 @@ _______
 
 Myelin plasticity is an emerging field impacting our understanding of neural plasticity and the circuit-level activity patterns within the brain. The thickness and internodal lengths defining myelin sheath effectiveness are essential in tuning the conduction velocity of action potentials.
 
-<br>
 
-{: .smallest }
-![Myelination](images/sketch-1.2.jpg)
-
-<br>
+{: .image-post }
+![Myelination](/bolyche/assets/images/sketch-1.2.jpg)
 
 Studies have shown that myelin varies according to required conduction speeds<sup>1</sup> and changes to reflect environment and neuronal activity<sup>2–7</sup>. Without an understanding of myelination and the dynamic way oligodendrocytes perform this task, our understanding of the development and maintenance of the nervous system is likely incomplete.
 
-<br>
 
-{: .small }
-![Mouse brain plasticity](images/sketch-2.2.jpg)
-
-<br>
+{: .image-post }
+![Mouse brain plasticity](/bolyche/assets/images/sketch-2.2.jpg)
 
 Oligodendrocytes are a type of glial cell thought to be generated solely from oligodendrocyte progenitor cells (OPCs), otherwise known as NG2 cells. These NG2 cells have been recognised as a unique type of glial cell due to their possession of neuron-glial synapses along with an abundance of voltage-gated ion channels<sup>8</sup>. As yet, what informs and influences NG2 cells to myelinate specific axons is not known. The influence of glutamatergic (and perhaps GABAergic) signalling to these cells is temptingly thought to convey information about where and when to myelinate<sup>9,10</sup>.
 
-<br>
-
-{: .small }
-![Receptors and channels of NG2 cells](images/sketch-3.2.jpg)
-
-<br>
+{: .image-post }
+![Receptors and channels of NG2 cells](/bolyche/assets/images/sketch-3.2.jpg)
 
 Identified and so named due to their strongly expressed neural/glial antigen 2, NG2 cells are a resident proliferating glial population comprising around 5% of mammalian CNS cells<sup>11</sup>. Primarily originating from the discrete ventral domains in the spinal cord and ventral subpallial regions of the forebrain during embryonic development, NG2 cells migrate and eventually populate all brain regions<sup>12,13</sup>.
 
-<br>
-
-{: .smallest }
-![Brain colonization](images/sketch-4.3.jpg)
-
-<br>
+{: .image-post }
+![Brain colonization](/bolyche/assets/images/sketch-4.3.jpg)
 
 Some NG2 cell populations appear to give rise to astrocytes<sup>14,15</sup> and deep-layer interneurons in areas such as the dorsal cortex<sup>16</sup>. Other postnatally arising NG2 cells from the subventricular zone are known to form classical oligodendrocytes. At present fate-mapping studies, genetic CRE/loxP lineage tracing and BrdU+ studies have not fully ascertained the differences between progenitor pools, nor whether they give rise to distinct populations<sup>17,18</sup>.
-
-<br>
-
-{: .smaller }
-![Existential Crisis Crossroads](images/sketch-5.2.jpg)
-
-<br>
-
 
 #### Lets go into the history a little…
 
@@ -69,69 +50,45 @@ In Bergles’ initial study, electrophysiological NG2 cell recordings in the hip
 
 Excitation (depolarisation) of neurons in synaptic transmission uses some important receptors, with α-amino-3-hydroxy-5-methyl-4-isoxazolepropionic acid receptors (AMPARs) being known for their fast synaptic transmission in response to glutamate as well as for their role in long-term potentiation (LTP).
 
-<br>
-
-{: .smaller }
-![AMPA receptor](images/sketch-6.jpg)
+{: .image-post }
+![AMPA receptor](/bolyche/assets/images/sketch-6.jpg)
 <figcaption>Adapted from "The cell biology of synaptic plasticity: AMPA receptor trafficking"</figcaption>
-
-<br>
 
 Bergles & co wanted to understand how glutamate was transmitted and affected the AMPA receptors on NG2 cells: Often other glial cells in the brain were affected by glutamate from diffusion, or from reverse transport via neuronal axons. What mechanism was at work here?
 
-<br>
-
-{: .center }
-![Whole cell patch clamp electrophysiological recording Equivalent Circuit](images/sketch-7.2.jpg)
+{: .image-post }
+![Whole cell patch clamp electrophysiological recording Equivalent Circuit](/bolyche/assets/images/sketch-7.2.jpg)
 <figcaption>Right hand side adapted from The Axon Guide</figcaption>
-
-<br>
 
 Using paired stimuli of afferent excitatory neurons and recording NG2 cell responses showed something akin to paired pulse facilitation. That is, in short, a type of short term synaptic plasticity where the second evoked response is increased.
 
 Recorded responses were increased and slowed by a drug known to potentiate AMPARs (cyclothiazide), inhibited by an AMPAR antagonist (GYKI) and stopped entirely when calcium release was inhibited (by adding Cd2+).
 
-<br>
-
-{: .center }
-![Competitive versus Non-Competitive Antagonists](images/sketch-8.2.jpg)
-
-<br>
+{: .image-post }
+![Competitive versus Non-Competitive Antagonists](/bolyche/assets/images/sketch-8.2.jpg)
 
 These responses showed activation of NG2 cell AMPA receptors, but not due to reverse transport of glutamate from the neurons. Looking further, some of these AMPARs were seen to be permeable to calcium.
 <i>(Observed when receptors lacking the GluR2 subunit are blocked by endogenous intracellular polyamines such as spermine, or the currents inhibited by selective antagonists such as the Joro spider toxin).</i>
 
 Knowing all this it’s worth asking – are glutamatergic synapses present? To know that, they needed to know whether NG2 cells received vesicles filled with glutamate, as typically occurs in neuronal synapses.
 
-<br>
-
-{: .center }
-![Classical Synapse](images/sketch-9.2.jpg)
-
-<br>
+{: .image-post }
+![Classical Synapse](/bolyche/assets/images/sketch-9.2.jpg)
 
 Miniature excitatory postsynaptic potentials (mEPSPs), tiny depolarisations, occur without neurons firing action potentials. They are the spontaneous fusion of vesicles containing neurotransmitters such as glutamate and result in variable, fast depolarisations of the membrane in neurons. Examining NG2 cells and the presence or lack of these signals would be highly suggestive.
 
 In NG2 cells (excitingly) similar such currents could be seen.
 
-<br>
-
-{: .smaller }
-![Recording of evoked EPSPs](images/sketch-10.jpg)
-
-<br>
+{: .image-post }
+![Recording of evoked EPSPs](/bolyche/assets/images/sketch-10.jpg)
 
 These little currents were tested; what happens if the number of vesicles released from the nerve terminals is increased? Using toxins such as the presynaptic neurotoxin pardaxin it could be seen that NG2 cells then experienced high frequency bursts of mEPSPs very similar to neurons. Indeed, NG2 cells encountered quantal glutamate-filled vesicles.
 
 Electron microscopy studies then showed axon terminals to have synaptic junctions with NG2 cells. With a high clustering of vesicles from the presynaptic neurons and a noticeable (though thinner than on spines) postsynaptic density, NG2 cells have distinct neuron-glial synapses.
 
-<br>
-
-{: .center }
-![Bergles 2000 Electron Microscopy Figure 5 a-d](images/bergles.jpg)
+{: .image-post }
+![Bergles 2000 Electron Microscopy Figure 5 a-d](/bolyche/assets/imagesbergles.jpg)
 <figcaption>Comparison of OPC synapse with bouton(b) (white arrow on left) versus with dendritic spine (s) on right from Ref 19</figcaption>
-
-<br>
 
 #### What is the effect of these synapses on NG2 cells? Why are they useful?
 
@@ -139,33 +96,23 @@ There are many ideas in the mix. While most of them focus on either inhibiting o
 
 One such idea shown in the work of Trotter et al<sup>20,21</sup> is that neuronal activity stimulates the cleavage of the NG2 transmembrane proteoglycan. Some cleaved parts of this protein may then influence prostaglandin D2 synthase (PTGDS) expression, resulting in neuromodulatory effects. Other cleaved parts such as the LNS domain may impact anchoring within the extracellular matrix and can influence postsynaptic signalling and glutamatergic signalling within the network.
 
-<br>
-
-{: .small }
-![Cleavage of NG2 via alpha and gamma secretase](images/sketch-11.jpg)
+{: .image-post }
+![Cleavage of NG2 via alpha and gamma secretase](/bolyche/assets/images/sketch-11.jpg)
 <figcaption>Adapted from Ref 21</figcaption>
 
-<br>
 
 Another idea is that synapses may alter downstream processes, but are ultimately not required for myelination. Myelination can still occur onto fixed axons or even nanofibers of a particular length<sup>22,23</sup>. It may be that potassium gradients influence differentiation to myelinating oligodendrocytes<sup>24</sup>, or simply that NG2 cells follow a program of differentiation without exogenous signalling required.
 
-<br>
-
-{: .smallest }
-![Program of differentiation](images/sketch-12.2.jpg)
-
-<br>
+{: .image-post }
+![Program of differentiation](/bolyche/assets/images/sketch-12.2.jpg)
 
 While unspecified myelination may occur in vitro without signalling, the specificity of myelinated vs unmyelinated axons in the brain is another matter. Axons that could be myelinated are not, and those which can be myelinated are seemingly fine-tuned for conduction velocity. This suggests neuronal signalling plays a determining role in this.
 
-<br>
-Whether it occurs via changes in intracellular calcium, via feedback loops by modulatory factors, or by an as-yet undiscovered cascade, we do not know. There is a lot of exciting research being done including on the effect of learning on myelination and on the many other channels and receptors of the cell. There is a lot of look forward to in the field of glia and the critical roles they play. Slowly, we are beginning to see them as more than the cerebral glue of the brain.
 
-<br>
+Whether it occurs via changes in intracellular calcium, via feedback loops by modulatory factors, or by an as-yet undiscovered cascade, we do not know. There is a lot of exciting research being done including on the effect of learning on myelination and on the many other channels and receptors of the cell. There is a lot of look forward to in the field of glia and the critical roles they play. Slowly, we are beginning to see them as more than the cerebral glue of the brain.
 
 _______
 
-<br>
 
 <sup><sub> References </sub>
 

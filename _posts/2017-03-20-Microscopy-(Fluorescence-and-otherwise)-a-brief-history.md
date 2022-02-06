@@ -1,14 +1,12 @@
 ---
-Date:
-Title: Microscopy (Fluorescence and otherwise)
+layout: post
+date: 2017-03-20
+title: Microscopy (Fluorescence and otherwise)
+image: assets/images/fluorescencemicroscopy.jpg
+categories: [ science, history ]
+tags: [green, brown]
 ---
-
-
-
-
-
-
-##### The development of microscopy has an exciting past & has been the subject of a few Nobel prize awards. Some notable contributes include -
+The development of microscopy has an exciting past & has been the subject of a few Nobel prize awards. Some notable contributes include..
 
 
 * 1953 Physics Nobel awarded to Frits Zernike for his work on phase contrast microscopes;
@@ -17,7 +15,7 @@ Title: Microscopy (Fluorescence and otherwise)
 * Richard Zsigmondy – [details](https://www.nobelprize.org/educational/physics/microscopes/timeline/ )
 
 
-We’ll skip past the development of lens grinding, past Anton van Leeuwenhoek and his peering into the previously unknown world of single-celled organisms (using globules of glass, no less: [see here](http://www.history-of-the-microscope.org/anton-van-leeuwenhoek-microscope-history.php ) and straight into fluorescence.
+We’ll skip past the development of lens grinding, past Anton van Leeuwenhoek and his peering into the previously unknown world of single-celled organisms (using globules of glass, no less: [see here](http://www.history-of-the-microscope.org/anton-van-leeuwenhoek-microscope-history.php)) and straight into fluorescence.
 
 
 Attaching fluorescent molecules is a rather ingenious (if now obvious) innovation to increase the ability to see one’s needle when it’s stuck in a haystack. Biological experiments are typically just such a problem: observe one tiny process when it’s surrounded by a multitude. Fluorescence microscopy helps with this problem: if we can label our needle, we can be specific in finding it through all the hay and we can watch what it does.

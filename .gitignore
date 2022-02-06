@@ -1,12 +1,5 @@
-.sass-cache
-.sass-cache/
 _site
 .DS_Store
-
-*.png
-
-# Environments
-.env
-.venv
-env/
-venv/
+*.swp
+.sass-cache
+*~

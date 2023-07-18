@@ -5,8 +5,8 @@ title: "Sabal Palms"
 categories: [ nature, books ]
 tags: [green, brown]
 description: "If you love nature, poetry and facts - You might love this author"
-featured: true
-hidden: true
+featured: false
+hidden: false
 image: assets/images/sabal-palm.jpg
 ---
 If there’s a few books I can entice you to buy, one of them would be by the author David George Haskell. Even if you don’t like reading a whole lot, are bored by non-fiction and put to stupor by poetry, I would still recommend the two books he has out. And yes they have all those qualities - they’re booklike (chapters and all), have got sciencey facts and they sing like poetry. But really they’re nothing like their usual parent genres. They don't *sound* scientific, they don't use iambic pentasomething or incomprehensible cadenced phrasing. Instead they *flow*. It’s like David Attenborough was smoothed into delicious paper form and developed a lifelong passion for flora instead of fauna. Haskell uses the fancy terminology that you’d expect from a professor of biology (which he is) but unexpectedly your brain skips by that and understands his meaning regardless.

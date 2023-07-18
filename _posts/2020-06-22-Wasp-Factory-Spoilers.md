@@ -5,8 +5,8 @@ title: Wasp Factory Spoilers
 categories: [ books ]
 tags: [green, brown]
 description: "Iain Banks is glorious - & this book was certainly not the fare I was used to from him"
-featured: true
-hidden: true
+featured: false
+hidden: false
 image: assets/images/waspclock.jpg
 ---
 Last year a friend of mine, having heard I’d never read The Wasp Factory by Iain Banks, immediately brought it off his shelf and into my temporary possession.

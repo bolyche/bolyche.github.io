@@ -11,7 +11,7 @@ My blog is a recording of miscellaneous writing. Feel free to browse & engage wi
 
 ### Set up Ruby, Jekyll etc
 
-This site uses Jekyll so follow their instructions to get up and running. Installation instructions per whichever operating system you're using - (link)[https://jekyllrb.com/docs/installation/].
+This site uses Jekyll so follow their instructions to get up and running. Installation instructions per whichever operating system you're using - [link](https://jekyllrb.com/docs/installation/).
 
 You'll note that we're using a Gemfile which occasionally needs updating for the gems used. You can serve the site using
 
@@ -19,11 +19,11 @@ You'll note that we're using a Gemfile which occasionally needs updating for the
 bundle exec jekyll serve
 ```
 
-For further instruction on this checkout (docs such as this)[https://jekyllrb.com/docs/step-by-step/10-deployment/]
+For further instruction on this checkout [docs such as this](https://jekyllrb.com/docs/step-by-step/10-deployment/)
 
 ### 
 
 
 ## Theme
 
-This (modified by me) theme is under free MIT licence via (WowThemes)[https://github.com/wowthemesnet/mediumish-theme-jekyll].
+This (modified by me) theme is under free MIT licence via [WowThemes](https://github.com/wowthemesnet/mediumish-theme-jekyll).

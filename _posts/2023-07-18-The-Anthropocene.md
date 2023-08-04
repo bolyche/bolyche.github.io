@@ -5,8 +5,8 @@ title: "The Anthropocene"
 categories: [ science ]
 tags: 
 description: "Is the Anthropocene important?"
-featured: true
-hidden: true
+featured: false
+hidden: false
 image: assets/images/Life_on_the_platform_margin_of_the_Miaolingian_sea,_North_China.png
 ---
 

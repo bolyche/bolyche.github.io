@@ -5,8 +5,8 @@ title: "Profiling in python"
 categories: [ programming ]
 tags: 
 description: "How do I find bottlenecks in my code"
-featured: true
-hidden: true
+featured: false
+hidden: false
 image: assets/images/scalene.png
 ---
 

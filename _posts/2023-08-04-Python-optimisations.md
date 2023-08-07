@@ -5,8 +5,8 @@ title: "Minor python optimisations"
 categories: [ shitpost ]
 tags: 
 description: "Optimisations"
-featured: true
-hidden: true
+featured: false
+hidden: false
 image: assets/images/factorials.png
 ---
 

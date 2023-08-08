@@ -5,8 +5,8 @@ title: "Funky method reassignments"
 categories: [ shitpost ]
 tags: 
 description: "Python method reassignment"
-featured: true
-hidden: true
+featured: false
+hidden: false
 image: assets/images/funkyballs.jpg
 ---
 

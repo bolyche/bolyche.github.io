@@ -5,8 +5,8 @@ title: "Cursed python"
 categories: [ shitpost ]
 tags: 
 description: "Cursed python"
-featured: true
-hidden: true
+featured: false
+hidden: false
 image: assets/images/cursed.jpg
 ---
 

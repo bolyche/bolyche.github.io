@@ -5,8 +5,8 @@ title: "Prompt engineering"
 categories: [ shitpost ]
 tags: 
 description: "Cursed python"
-featured: true
-hidden: true
+featured: false
+hidden: false
 image: assets/images/prompt-engineering-2.png
 ---
 

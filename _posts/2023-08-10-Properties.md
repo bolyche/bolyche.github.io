@@ -5,8 +5,8 @@ title: "Properties"
 categories: [ shitpost ]
 tags: 
 description: "Python properties"
-featured: true
-hidden: true
+featured: false
+hidden: false
 image: assets/images/properties.jpg
 ---
 

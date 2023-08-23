@@ -5,8 +5,8 @@ title: "Descriptors"
 categories: [ shitpost ]
 tags: 
 description: "Python descriptors"
-featured: true
-hidden: true
+featured: false
+hidden: false
 image: assets/images/getset.png
 ---
 

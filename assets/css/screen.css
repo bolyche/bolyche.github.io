@@ -913,3 +913,64 @@ iframe {
     opacity: 0;
     transition: opacity .25s;
 }
+
+@media (prefers-color-scheme: dark) {
+    body {
+      color: #eee;
+      background: #343434;
+    }
+    .card {
+        color: #eee;
+        background: #666666a8;
+      }
+    .navbar {
+        color: #eee;
+        background: #a5a5a5a8;
+    }
+    .nav-link {
+        color: #eee;
+    }
+    .footer {
+        color: #eee;
+        background: #a5a5a5a8;
+    }
+    .listfeaturedtag h4.card-text {
+        color: #eee;
+    }
+    .listfeaturedtag h4.card-text,
+    .listrecent h4.card-text {  
+        color: #eee;
+    }
+    .article-post {
+        color: #eee;
+    }
+    .text-dark {
+        color: #eee !important;
+    }
+    span.post-date, span.post-read {
+        color: #eee;
+    }
+    ul.tags li a {
+        color: #809fff;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        color: #eee;
+    }
+    .share, .share a {
+        color: #eee;
+    }
+    a {
+      color: #809fff;
+    }
+    .jumbotron.fortags .col-md-4 {
+        background: rgba(0, 0, 0, 0.5);
+        color: #fff;
+    }
+    pre {
+        background: #252525;
+        color: #eee;
+    }
+    .highlight {
+        background: #343434;
+    }
+}

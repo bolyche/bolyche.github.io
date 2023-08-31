@@ -2,7 +2,7 @@
 layout: post
 date: 2023-08-11
 title: "Descriptors"
-categories: [ shitpost ]
+categories: [ shitpost, programming ]
 tags: 
 description: "Python descriptors"
 featured: false

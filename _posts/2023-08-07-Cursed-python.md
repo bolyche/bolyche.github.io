@@ -2,7 +2,7 @@
 layout: post
 date: 2023-08-07
 title: "Cursed python"
-categories: [ shitpost ]
+categories: [ shitpost, programming ]
 tags: 
 description: "Cursed python"
 featured: false

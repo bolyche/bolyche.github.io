@@ -2,7 +2,7 @@
 layout: post
 date: 2023-08-10
 title: "Properties"
-categories: [ shitpost ]
+categories: [ shitpost, programming ]
 tags: 
 description: "Python properties"
 featured: false

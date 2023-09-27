@@ -5,8 +5,8 @@ title: "Thoughts on DataOps"
 categories: [ shitpost ]
 tags: 
 description: "DataOps"
-featured: true
-hidden: true
+featured: false
+hidden: false
 image: assets/images/devops.jpg
 ---
 

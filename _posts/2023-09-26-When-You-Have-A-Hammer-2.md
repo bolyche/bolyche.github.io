@@ -14,9 +14,7 @@ Continuing from the Part 1 post - an overview of database types, use cases, & no
 
 ### Grouping Databases
 
-There are different ways to classify or group databases together. 
-
-The following table shows some of the groupings
+There are different ways to classify or group databases together, for example:
 
 <style>
 table, th, td {
@@ -29,27 +27,22 @@ table, th, td {
 |----------|-------|-------------|
 | Processing Type | OLAP, OLTP, OLEP | Databases are optimised generally for specific types of workloads, as such this is one of the most important considerations |
 | Hosting | On Prem or Cloud | You might already have your backend or data with a particular cloud provider or hosting yourself on your local servers. Not all solutions are available everywhere - AWS for example has it's own databases for which it's optimised |
-| DB type | Relational no NoSQL (not only SQL) | This isn't an easy question because NoSQL holds a vast variety of databases to choose from. As such I'll add a small discussion of it below
+| DB type | Relational no NoSQL (not only SQL) | This isn't an easy question because NoSQL holds a vast variety of databases to choose from
 
 <br>
-But this doesn't necessarily tell us much. 
+But these groupings don't necessarily tell us much.
 
-Perhaps we know based on our requirements that we need an OLTP database. There's still many to choose from. 
-Similarly, if we choose a particular cloud provider (say, AWS), then we still have a wide choice of what to deploy unless we want to go for a fully managed database option.
-Similarly again, if we decide we want an OLTP database which resides in AWS - Have our options narrowed down by much? Quite a few NoSQL databases as well as relational databases are ACID compliant.
+We might know that we need an OLTP database but the options are from there remain numerous. The same goes for cloud provider and NoSQL vs SQL.
 
+When you try to answer this question online often you'll get the "SQL vs NoSQL debate". To me, this feels like a slightly outdated way to consider databases.
 
-When you investigate this question online often you'll get the "SQL vs NoSQL debate" happened. Something about that strikes me as off though. 
-
-These days, there is a wide and interesting variety of dbs out there which can actually be _optimised_ for certain use cases - and that is very exciting.
+These days there is a wide and interesting variety of databases out there which can actually be _optimised_ for certain use cases - and that is very exciting.
 
 ---------------
 
 ### Database Types
 
-When considering the database type, it can almost be simpler to consider the different _kinds_ of databases rather than SQL vs Non. 
-
-Here are some of the more popular types:
+Some popular types include:
 
 | Database | Use case | Examples | Notes |
 |:---------|:---------|:---------|:------|
@@ -62,7 +55,7 @@ Here are some of the more popular types:
 | NewSQL | Similar to Relational but where horizontal scalability is required | CockroachDB, Couchbase | Typically CP (out of CAP), losing availability. Less flexible than popular relational dbs |
 
 <br>
-We can start to guess at a few easy things from this. 
+From the above, it becomes a bit simpler to make some small generalisation. For example:
 
 - Do you have absolutely ridiculous amounts of incremental timestamp data to record? -> Yes? -> Maybe a time series db is your friend
 - Do you frequently query the relationship between multiple independent entities? -> Yes? -> Maybe a nice graph DB? (Perhaps overlaid over a DB to process large volumes?)
@@ -74,12 +67,11 @@ We can start to guess at a few easy things from this.
 I joke only a little here, because obviously the solution is not .. well, obvious. You'll likely find you need multiple solutions also to meet your business need. 
 
 
-
 ---------------
 
 ### A few I'm familiar with 
 
-I might expand this post or even move it to another page, but for the present, here's a small overview from me, for some of the systems I've used
+I might expand this post or even move it to another page, but for the present, here's a small overview from me for some of the systems I've used
 
 **Snowflake**
 

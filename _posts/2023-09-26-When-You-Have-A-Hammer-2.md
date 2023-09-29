@@ -93,7 +93,7 @@ I might expand this post or even move it to another page, but for the present, h
 
 - Google Cloud Platform data warehousing solution
 - Optimal for OLAP on a larger scale
-- Optimised for denormalised (nested) datasets
+- Optimised for denormalised or nested datasets
 - Works well on wide data; also well with long data which can be sharded or partitioned if needed (with auto-sharding on date possible)
 - Slow for joins and when using multiple tables
 - Inserts / deletes will operate on a similar timeframe for a few rows vs a few thousand
@@ -110,14 +110,14 @@ I might expand this post or even move it to another page, but for the present, h
 - Amazon Web Services column oriented data warehousing solution
 - Can hold up to 16 PB of data on a cluster
 - Redshift spectrum allows simultaneous querying of structured and semistructured s3 data without loading directly into the cluster; equally data can be quickly loaded from DynamoDB or EMR
-- Downside of Spectrum is that is charges per scanned byte
+- Downside of Spectrum is that it charges per scanned byte
 - Slower JDBC loads from other sources
 - Not really optimised for real-time; (can ingest streaming data via Kinesis and use materialised views which update); better for batching and hot/cold stores
 - Table Sort and Dist keys should be optimised (not automatically managed) which can be both a plus and a minus as engineers will need to know how the data will be used
 - Analyse and Explain commands can be extremely helpful for understanding the query performance, query plan and to plan the query queue; but the workload management (WLM) can be difficult
 - Problematic re concurrant usage; multitenancy access may limit the system, serialisation errors can be a problem
 - No checks for primary key constraints
-- Automatic re-sorting of table rows and reclaiming of space
+- Automatic re-sorting of table rows and reclaiming of space (vacuuming)
 - Materialised views appear to refresh on auto-vaccuuming which increases cost
 - Dynamic data masking to protect PII data
 - Potential to integrate with AWS tooling to e.g. use Amazon Comprehend to recognise PII columns
@@ -133,5 +133,4 @@ I might expand this post or even move it to another page, but for the present, h
 - Can have problematic cluster restructuring or upgrading; equally large data volumes may need to be archived and restoring such indexes is a tricky procedure
 - Not easy to restucture or change your index
 - Not suited to relational data that will require joins between documents
-
-Further info: [this is a good (though maybe old) link on it](https://www.datadoghq.com/blog/monitor-elasticsearch-performance-metrics/)
+- Further info: [this is a good (though maybe old) link on it](https://www.datadoghq.com/blog/monitor-elasticsearch-performance-metrics/)

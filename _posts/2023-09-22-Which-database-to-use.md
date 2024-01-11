@@ -1,16 +1,14 @@
 ---
 layout: post
 date: 2023-09-22
-title: "When You Have a Hammer..(part 1)"
+title: "Which database should I use?"
 categories: [ shitpost, programming ]
 tags: 
 description: "Choosing your database"
-featured: true
-hidden: true
+featured: false
+hidden: false
 image: assets/images/servers.jpg
 ---
-
-## (This is a post on databases)
 
 When you have a hammer.. everything looks like a nail. Similarly, when you know Postgres.. Postgres is good for all problems right? It's like the proverbial porridge in the 3 Bears childrens story. Not too hot, not too cold. Open source, scales well, many integrations, well maintained... What more could you possibly need?
 

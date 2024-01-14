@@ -10,12 +10,13 @@ hidden: true
 image: assets/images/dbs.jpg
 ---
 
-There are different ways to classify or group databases together, for example:
+There are different ways to classify or group databases together. Some of the common ways include
 
 <style>
 table, th, td {
-   border: 2px solid white;
-   background-color: #a5a5a5a8;
+   border: 1px solid #ffffff5e;
+   background-color: #a5a5a51f;
+   padding: 10px
 }
 </style>
 
@@ -23,22 +24,14 @@ table, th, td {
 |----------|-------|-------------|
 | Processing Type | OLAP, OLTP, OLEP | Databases are optimised generally for specific types of workloads, as such this is one of the most important considerations |
 | Hosting | On Prem or Cloud | You might already have your backend or data with a particular cloud provider or hosting yourself on your local servers. Not all solutions are available everywhere - AWS for example has it's own databases for which it's optimised |
-| DB type | Relational no NoSQL (not only SQL) | This isn't an easy question because NoSQL holds a vast variety of databases to choose from
+| DB type | Relational or NoSQL (not only SQL) | This isn't an easy question because NoSQL holds a vast variety of databases to choose from
 
 <br>
 But these groupings don't necessarily tell us much.
 
 We might know that we need an OLTP database but the options are from there remain numerous. The same goes for cloud provider and NoSQL vs SQL.
 
-When you try to answer this question online often you'll get the "SQL vs NoSQL debate". To me, this feels like a slightly outdated way to consider databases.
-
-These days there is a wide and interesting variety of databases out there which can actually be _optimised_ for certain use cases - and that is very exciting.
-
----------------
-
-### Database Types
-
-Some popular types include:
+These days there is a wide and interesting variety of databases out there which can actually be _optimised_ for certain use cases - and that is very exciting, it allows us to be more efficient. Some of the types I've put into a table below
 
 | Database | Use case | Examples | Notes |
 |:---------|:---------|:---------|:------|
@@ -51,13 +44,13 @@ Some popular types include:
 | NewSQL | Similar to Relational but where horizontal scalability is required | CockroachDB, Couchbase | Typically CP (out of CAP), losing availability. Less flexible than popular relational dbs |
 
 <br>
-From the above, it becomes a bit simpler to make some small generalisation. For example:
+From the above, it becomes a bit simpler to really just start asking questions in order to figure out what you might need. For example:
 
 - Do you have absolutely ridiculous amounts of incremental timestamp data to record? -> Yes? -> Maybe a time series db is your friend
-- Do you frequently query the relationship between multiple independent entities? -> Yes? -> Maybe a nice graph DB? (Perhaps overlaid over a DB to process large volumes?)
-- Do you not know the structure of your data and need to rapidly prototype, but want to be able to parse and access all the key-values quickly? -> Yes? -> Okay so maybe a document DB?
+- Do you frequently query the relationship between multiple independent entities? -> Yes? -> A Graph db may be your friend (Perhaps overlaid over a DB to process large volumes?)
+- Do you not know the structure of your data and need to rapidly prototype, but want to be able to parse and access all the key-values quickly? -> Yes? -> Potentially a document DB
 - Have you scaled past your PostgreSQL instance and desperately need horizontal scaling? -> Yes? -> Migrating to NewSQL might not be too bad
-- Do you need something to keep your web data for eCommerce basket flows? -> Yes? -> A beautiful key-value db for you then good Sir
-- How about a massive amount of concurrent writes are required for your worldwide shipping management? -> Sounds bad? -> It'll probably be okay with a nice column db
+- Do you need something to keep your web data for eCommerce basket flows? -> Yes? -> Key-value might suit well
+- How about a massive amount of concurrent writes are required for your worldwide shipping management? -> Sounds bad? -> Column db might be right here
 
-I joke only a little here, because obviously the solution is not .. well, obvious. You'll likely find you need multiple solutions also to meet your business need. 
+Ultimately whatever you pick won't necessarily be obvious and may be dictated by things like budget and the existing skillsets of your team. However, picking something unsuited for purpose (e.g. collecting trillions of IoT timestampted data points and expecting Redshift to be efficient with it) might in the end cost you lots of money. You may also find you want more than one solution in order to meet your business needs. 

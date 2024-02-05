@@ -5,8 +5,8 @@ title: "Database groupings"
 categories: [ shitpost, programming ]
 tags: 
 description: "Choosing your database"
-featured: true
-hidden: true
+featured: false
+hidden: false
 image: assets/images/dbs.jpg
 ---
 

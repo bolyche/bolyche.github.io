@@ -2,7 +2,7 @@
 layout: post
 date: 2023-09-22
 title: "Which database should I use?"
-categories: [ shitpost, programming ]
+categories: [ programming ]
 tags: 
 description: "Choosing your database"
 featured: false

@@ -2,7 +2,7 @@
 layout: post
 date: 2023-08-04
 title: "Minor python optimisations"
-categories: [ shitpost, programming ]
+categories: [ python, programming ]
 tags: 
 description: "Optimisations"
 featured: false

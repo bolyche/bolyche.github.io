@@ -2,7 +2,7 @@
 layout: post
 date: 2023-08-08
 title: "Prompt engineering"
-categories: [ shitpost ]
+categories: [ LLMs ]
 tags: 
 description: "Cursed python"
 featured: false

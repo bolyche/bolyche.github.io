@@ -2,7 +2,7 @@
 layout: post
 date: 2023-08-25
 title: "Thoughts on DataOps"
-categories: [ shitpost ]
+categories: [ devops ]
 tags: 
 description: "DataOps"
 featured: false

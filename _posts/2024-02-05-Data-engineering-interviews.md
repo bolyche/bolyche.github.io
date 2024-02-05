@@ -2,7 +2,7 @@
 layout: post
 date: 2024-02-05
 title: "Data Engineering Interviews"
-categories: [ shitpost, programming ]
+categories: [ python, programming ]
 tags: 
 description: "The field is now flooded"
 featured: true

@@ -2,7 +2,7 @@
 layout: post
 date: 2023-09-26
 title: "Database groupings"
-categories: [ shitpost, programming ]
+categories: [ programming ]
 tags: 
 description: "Choosing your database"
 featured: false

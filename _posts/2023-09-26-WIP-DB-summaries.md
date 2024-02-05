@@ -2,7 +2,7 @@
 layout: post
 date: 2023-09-26
 title: "(WIP) Database Summaries"
-categories: [ shitpost, programming ]
+categories: [ programming ]
 tags: 
 description: "Database summaries / cheatsheet"
 featured: true

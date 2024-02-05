@@ -2,7 +2,7 @@
 layout: post
 date: 2023-08-05
 title: "Funky method reassignments"
-categories: [ shitpost, programming ]
+categories: [ python, programming ]
 tags: 
 description: "Python method reassignment"
 featured: false

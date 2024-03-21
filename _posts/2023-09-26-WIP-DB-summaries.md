@@ -5,8 +5,8 @@ title: "(WIP) Database Summaries"
 categories: [ programming ]
 tags: 
 description: "Database summaries / cheatsheet"
-featured: true
-hidden: true
+featured: false
+hidden: false 
 image: assets/images/db_summaries.jpg
 ---
 

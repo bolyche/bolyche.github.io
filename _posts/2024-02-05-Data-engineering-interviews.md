@@ -5,8 +5,8 @@ title: "Data Engineering Interviews"
 categories: [ python, programming ]
 tags: 
 description: "The field is now flooded"
-featured: true
-hidden: true
+featured: false
+hidden: false
 image: assets/images/interview.jpg
 ---
 

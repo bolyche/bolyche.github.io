@@ -17,7 +17,7 @@ Sometimes I see things like duplicted code or lack of variables or just more oft
 In planning for this teaching session I did a lot of browsing. Discovered that the CTO (back when he used to do lots of videos, I think he stopped about 4 years ago) is remarkably good at explaining concepts. There's one video which comes to mind: explaining what Immutable vs Mutable means in terms of terraform configurations.
 
 I found it interesting because he was suggesting that terraform tends towards immutable architecture. To explain his concept a little (without you needing to watch the video yourself):
-* Mutable infra is like a running upgrade of nginx on an EC2 instance running a webserver (using some configuration manager like chef, puppet or ansible) - You try to upgrade one component that is tightly coupled with others; if it fails a little it fails on one component and you're stuck in limbo
+* Mutable infra is lgsike a running upgrade of nginx on an EC2 instance running a webserver (using some configuration manager like chef, puppet or ansible) - You try to upgrade one component that is tightly coupled with others; if it fails a little it fails on one component and you're stuck in limbo
 * Immutable infra is maybe a bit more like a blue green deployment (not his words) - You don't upgrade in place; instead you use a new box, get all the configuration you want running and then you switch the traffic to the right box on success (and kill the old machine)
 
 He makes a great point about stateful resources, about how resources can be coupled/uncoupled and how you want to use different approaches in different ways for such resources. Databases being mutable for example (due to persistent state) and instances being immutable, since you can create and redeploy them without state. 
@@ -32,50 +32,53 @@ The problems were actually (perhaps surprisingly) not with the setup of pipes, s
 
 This has been a bit of a tangential comment, but it'll be interesting to see how the landscape of plugins (and mutability) continues to change with IaC. 
 
-********************************
+-
+-
+
+
 
 That 1-pager I mentioned up above? The below is basically its summary.
 
-## Resources
+#### Resources
 * Resources are any item that can be provisioned
 
-## Mutable vs Immutable architecture
+#### Mutable vs Immutable architecture
 * Terraform's conception was for immutable architecture (but this does actually depend on the resources and the provider plugin)
 
-## Modules
+#### Modules
 * Encapsulate your configuration in modules to reduce duplicate code 
 * Modules can be versioned
 * Can be local or can create in [private module registry](https://developer.hashicorp.com/terraform/cloud-docs/registry/publish-modules)
 * Design to be smaller and have input variables ; make it flexible and reusable
 * Limit child modules to max depth 2 (one module calls another)
 
-## Workspaces and statefiles
+##### Workspaces and statefiles
 * A workspace manages a single statefile
 * Consider blast radius and try to keep small (how much resources affect each other)
 * Group together necessary and logically related resources
 * e.g. compute vs db may be separate since they can operate independently
 
-### Volatility
+##### Volatility
 * How frequently does the resource change? -> Group by that frequency and how tightly couples the resources are
 * Reduce risk of unexpected changes but grouping resources frequently changed together
 
-### Statefulness 
+##### Statefulness 
 * Consider whether your resource has state i.e. if you recreate it from scratch, is something lost?
 * Protect against loss of state by grouping stateless vs stateful resources
 
-### Permissions
+##### Permissions
 * Group by team and expected permissions level - Each team is responsible for their own workspaces - it means they can edit their resources
 * e.g. App team may need access to compute resources but no IAM, devops team will need IAM priviledges 
 * If there are team interdependencies, use [outputs to coordinate](https://registry.terraform.io/providers/hashicorp/tfe/latest/docs/data-sources/outputs)
 * Permissions can be different across for example, test vs prod environments. As such separate workspaces are helpful here
 
-### Speed and Dependency
+##### Speed and Dependency
 * Avoid huge plans that take a while to build -> Dependency graphs may eventually require huge RAM
 
-### Projects
+##### Projects
 * Group workspaces into projects for easier permissions management
 
-## Statefiles
+##### Statefiles
 * They show the current expected configuration
 * Anything not declared will be ignored / not known
 * Resources created but changed in the UI may not be picked up

@@ -12,7 +12,7 @@ image: assets/images/terraform_mars.jpg
 
 I recently did a teaching session on terraform at work and it was a good reminder of how excellent the hashicorp documentation is. 
 
-Sometimes I see things like duplicted code or lack of variables or just more often, extremely big long-running dependency graphs being built on running `terraform plan` and I am sorely tempted to send them page 1 of the terraform docs :)
+Sometimes I see things like duplicated code or lack of variables or just more often, extremely big long-running dependency graphs being built on running `terraform plan` and I am sorely tempted to send them page 1 of the terraform docs :)
 
 In planning for this teaching session I did a lot of browsing. Discovered that the CTO (back when he used to do lots of videos, I think he stopped about 4 years ago) is remarkably good at explaining concepts. There's one video which comes to mind: explaining what Immutable vs Mutable means in terms of terraform configurations.
 

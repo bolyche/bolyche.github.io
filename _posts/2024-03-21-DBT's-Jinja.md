@@ -5,8 +5,8 @@ title: "DBT's Jinja"
 categories: [ python, programming ]
 tags: 
 description: "DBT actually feels ridiculously flexible"
-featured: true
-hidden: true
+featured: false
+hidden: false
 image: assets/images/jinja.jpg
 ---
 {% raw %}

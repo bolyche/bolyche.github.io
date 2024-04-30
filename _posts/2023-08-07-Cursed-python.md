@@ -5,7 +5,7 @@ title: "Cursed python"
 categories: [ python, programming ]
 tags: 
 description: "Cursed python"
-featured: false
+featured: true
 hidden: false
 image: assets/images/cursed.jpg
 ---

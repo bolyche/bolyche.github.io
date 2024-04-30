@@ -7,14 +7,14 @@ tags:
 description: "Python descriptors"
 featured: false
 hidden: false
-image: assets/images/getset.png
+image: assets/images/getset.jpg
 ---
 
 As the documentation tells us, a descriptor is just something that implements the `__get__`, `__set__` or `__delete__` method(s). You've probably used them yourself and not known it - examples include `classmethod`, `staticmethod` and  `property` decorators (though they are likely implemented in C or C++, not in python). You call them inside classes and can use them as decorators in handy ways (see my previous post about properties for example).
 
 You can also implement one yourself. Examples in which they're often then implemented are as validators. These allow you to ensure certain conditions are met for your class attributes (such as a number being above 0 or a string having to be one of a set numbers of options).
 
-The below Validator class is from the [HowTo page for Descriptors]() and has excellent examples. One frequent use I've had for validation has been things like date formats or where variables need to be one of a set of strings.
+The below Validator class is from the [HowTo page for Descriptors](https://docs.python.org/3/howto/descriptor.html#complete-practical-example) and has excellent examples. One frequent use I've had for validation has been things like date formats or where variables need to be one of a set of strings.
 
 ```python
 import datetime

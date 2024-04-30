@@ -5,8 +5,8 @@ title: "Terraform's Immutability"
 categories: [ python, programming ]
 tags: 
 description: "Terraform 101 vs immutability"
-featured: true
-hidden: true
+featured: false
+hidden: false
 image: assets/images/terraform_mars.jpg
 ---
 

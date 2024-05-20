@@ -973,4 +973,7 @@ iframe {
     .highlight {
         background: #343434;
     }
+    blockquote {
+        color: #eee;
+    }
 }

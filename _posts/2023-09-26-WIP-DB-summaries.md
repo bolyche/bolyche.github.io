@@ -6,7 +6,7 @@ categories: [ programming ]
 tags: 
 description: "Database summaries / cheatsheet"
 featured: false
-hidden: false 
+hidden: true 
 image: assets/images/db_summaries.jpg
 ---
 

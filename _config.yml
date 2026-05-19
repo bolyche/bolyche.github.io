@@ -13,12 +13,12 @@ permalink: /:title/
 
 # Authors
 authors:
-  chris:
+  remy:
     name: it's me
     display_name: it's me
     avatar: 'assets/images/chris_white_transparent.png'
     gravatar: d514e7a419c24b6ea3350de0f01dc413
-    email: chris@bolyche.com
+    email: remy@bolyche.com
     web: https://bolyche.github.io
     twitter: https://twitter.com/bolyche
     description: ""

@@ -6,7 +6,7 @@ categories: [ devops ]
 tags: 
 description: "DataOps"
 featured: false
-hidden: false
+hidden: true
 image: assets/images/devops.jpg
 ---
 

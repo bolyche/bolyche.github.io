@@ -6,7 +6,7 @@ categories: [ LLMs ]
 tags: 
 description: "Cursed python"
 featured: false
-hidden: false
+hidden: true
 image: assets/images/prompt-engineering-2.png
 ---
 

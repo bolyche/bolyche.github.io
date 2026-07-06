@@ -6,7 +6,7 @@ categories: [ programming ]
 tags: 
 description: "Choosing your database"
 featured: false
-hidden: false
+hidden: true
 image: assets/images/dbs.jpg
 ---
 

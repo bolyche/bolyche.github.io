@@ -14,7 +14,7 @@ I've been thinking about the problems associated with having hundreds (thousands
 
 My theory at present is that the reason some companies have absolutely stonking amounts of repos is either 
 1. Because the company is big or
-2. Because somebody fucked up
+2. Because somebody messed up
 
 Now this is maybe a controversial opinion and polarising for a reason - That reason probably being because both approaches have big upsides and big downsides.
 
